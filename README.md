@@ -1,7 +1,6 @@
 #### [DataTalks.Club](https://datatalks.club)'s Capstone 2 project by [Alexander D. Rios](https://linktr.ee/aletbm)
 # 🌋 Natural Language Processing with Disaster Tweets
-
-<img src="https://earthdaily.com/wp-content/uploads/2023/12/EarthDaily-Disaster-Banner-scaled.jpg"></img>
+<img src="https://earthdaily.com/hubfs/Main%20Website%202025/Environmental%20Impact/env-impact-wildfire.jpg"></img>
 <cite style="font-size:10px">Source: [EarthDailyAnalytics](https://earthdaily.com/industry/natural-disaster-risk-management/)</cite>
 
 <a href="https://www.kaggle.com/code/aletbm/nlp-with-disaster-tweets" target="_blank"><img align="left" alt="Kaggle" title="Open in Kaggle" src="https://kaggle.com/static/images/open-in-kaggle.svg"></a><a href="https://colab.research.google.com/drive/1ljQsYggPPQEUjZbLjTANhgEF9vZeCl9L?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a><a href="https://disastertweetsclassification.streamlit.app" target="_parent"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"/></a>
@@ -42,54 +41,54 @@ This particular challenge is perfect for data scientists looking to get started 
 # Directory structure
 
 ### 📂 NLP_with_Disaster_Tweets_Capstone_2
-* 📄 [README.md](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/README.md)
-* 📄 [Pipfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/Pipfile)
-* 📄 [Pipfile.lock](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/Pipfile.lock)
-* 📂 [analysis](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/analysis)
-    * 📊 [nlp-with-disaster-tweets.ipynb](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/analysis/nlp-with-disaster-tweets.ipynb)
-    * 📊 [NLP_with_Disaster_Tweets-Colab.ipynb](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/analysis/NLP_with_Disaster_Tweets-Colab.ipynb)
-    * 📖 [NLP_with_Disaster_Tweets-Colab.pdf](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/analysis/NLP_with_Disaster_Tweets-Colab.pdf)
-    * 📊 [test_deploy.ipynb](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/analysis/test_deploy.ipynb)
-* 📂 [dataset](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/dataset)
-    * 📂 [479k-english-words](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/dataset/479k-english-words)
-        * 🗄️ [english_words_479k.txt](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/dataset/479k-english-words/english_words_479k.txt)
-    * 📂 [english-word-frequency](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/dataset/english-word-frequency)
-        * 🗄️ [unigram_freq.csv](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/dataset/english-word-frequency/unigram_freq.csv)
-    * 📂 [nlp-getting-started](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/dataset/nlp-getting-started)
-        * 🗄️ [sample_submission.csv](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/dataset/nlp-getting-started/sample_submission.csv)
-        * 🗄️ [test.csv](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/dataset/nlp-getting-started/test.csv)
-        * 🗄️ [train.csv](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/dataset/nlp-getting-started/train.csv)
-* 📂 [etc](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/etc)
-    * 📄 [deploy.sh](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/deploy.sh)
-    * ⚙️ [gateway-deployment-service.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/gateway-deployment-service.yaml)
-    * ⚙️ [gateway-deployment.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/gateway-deployment.yaml)
-    * 🐋 [gateway.dockerfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/gateway.dockerfile)
-    * ⚙️ [kind-config.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/kind-config.yaml)
-    * ⚙️ [metallb-configmap.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/metallb-configmap.yaml)
-    * ⚙️ [model-deployment.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/model-deployment.yaml)
-    * ⚙️ [model-service.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/model-service.yaml)
-    * ⚙️ [nginx-ingress.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/nginx-ingress.yaml)
-    * 🐋 [serving.dockerfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/serving.dockerfile)
-* 📂 [models](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/models)
-    * 🤖 [model_base.h5](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/models/model_base.h5)
-    * 🤖 [tokenizer.bin](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/models/tokenizer.bin)
-* 📂 [scripts](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/scripts)
-    * 🐍 [load_data.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/load_data.py)
-    * 🐍 [model_conversor.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/model_conversor.py)
-    * 🐍 [model_serving.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/model_serving.py)
-    * 🐍 [test.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/test.py)
-    * 🐍 [train.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/train.py)
-    * 🐍 [utils.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/utils.py)
-    * 📂 [disaster_tweets_model](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/disaster_tweets_model)
-        * 📄 [fingerprint.pb](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/disaster_tweets_model/fingerprint.pb)
-        * 📄 [saved_model.pb](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/disaster_tweets_model/saved_model.pb)
-        * 📂  [variables](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/disaster_tweets_model/variables)
-            * 📄 [variables.data-00000-of-00001](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/disaster_tweets_model/variables/variables.data-00000-of-00001)
-            * 📄 [variables.index](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/disaster_tweets_model/variables/variables.index)
-* 📂  [streamlit_app](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/streamlit_app)
-    * 🐍 [my_app.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/streamlit_app/my_app.py)
-    * 📄 [requirements.txt](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/streamlit_app/requirements.txt)
-    * 🗄️ [train_clean.csv](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/streamlit_app/train_clean.csv)
+* 📄 [README.md](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/README.md)
+* 📄 [Pipfile](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/Pipfile)
+* 📄 [Pipfile.lock](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/Pipfile.lock)
+* 📂 [analysis](https://github.com/aletbm/NLP_with_Disaster_Tweets/tree/main/analysis)
+    * 📊 [nlp-with-disaster-tweets.ipynb](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/analysis/nlp-with-disaster-tweets.ipynb)
+    * 📊 [NLP_with_Disaster_Tweets-Colab.ipynb](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/analysis/NLP_with_Disaster_Tweets-Colab.ipynb)
+    * 📖 [NLP_with_Disaster_Tweets-Colab.pdf](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/analysis/NLP_with_Disaster_Tweets-Colab.pdf)
+    * 📊 [test_deploy.ipynb](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/analysis/test_deploy.ipynb)
+* 📂 [dataset](https://github.com/aletbm/NLP_with_Disaster_Tweets/tree/main/dataset)
+    * 📂 [479k-english-words](https://github.com/aletbm/NLP_with_Disaster_Tweets/tree/main/dataset/479k-english-words)
+        * 🗄️ [english_words_479k.txt](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/dataset/479k-english-words/english_words_479k.txt)
+    * 📂 [english-word-frequency](https://github.com/aletbm/NLP_with_Disaster_Tweets/tree/main/dataset/english-word-frequency)
+        * 🗄️ [unigram_freq.csv](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/dataset/english-word-frequency/unigram_freq.csv)
+    * 📂 [nlp-getting-started](https://github.com/aletbm/NLP_with_Disaster_Tweets/tree/main/dataset/nlp-getting-started)
+        * 🗄️ [sample_submission.csv](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/dataset/nlp-getting-started/sample_submission.csv)
+        * 🗄️ [test.csv](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/dataset/nlp-getting-started/test.csv)
+        * 🗄️ [train.csv](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/dataset/nlp-getting-started/train.csv)
+* 📂 [etc](https://github.com/aletbm/NLP_with_Disaster_Tweets/tree/main/etc)
+    * 📄 [deploy.sh](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/deploy.sh)
+    * ⚙️ [gateway-deployment-service.yaml](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/gateway-deployment-service.yaml)
+    * ⚙️ [gateway-deployment.yaml](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/gateway-deployment.yaml)
+    * 🐋 [gateway.dockerfile](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/gateway.dockerfile)
+    * ⚙️ [kind-config.yaml](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/kind-config.yaml)
+    * ⚙️ [metallb-configmap.yaml](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/metallb-configmap.yaml)
+    * ⚙️ [model-deployment.yaml](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/model-deployment.yaml)
+    * ⚙️ [model-service.yaml](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/model-service.yaml)
+    * ⚙️ [nginx-ingress.yaml](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/nginx-ingress.yaml)
+    * 🐋 [serving.dockerfile](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/serving.dockerfile)
+* 📂 [models](https://github.com/aletbm/NLP_with_Disaster_Tweets/tree/main/models)
+    * 🤖 [model_base.h5](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/models/model_base.h5)
+    * 🤖 [tokenizer.bin](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/models/tokenizer.bin)
+* 📂 [scripts](https://github.com/aletbm/NLP_with_Disaster_Tweets/tree/main/scripts)
+    * 🐍 [load_data.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/load_data.py)
+    * 🐍 [model_conversor.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/model_conversor.py)
+    * 🐍 [model_serving.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/model_serving.py)
+    * 🐍 [test.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/test.py)
+    * 🐍 [train.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/train.py)
+    * 🐍 [utils.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/utils.py)
+    * 📂 [disaster_tweets_model](https://github.com/aletbm/NLP_with_Disaster_Tweets/tree/main/scripts/disaster_tweets_model)
+        * 📄 [fingerprint.pb](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/disaster_tweets_model/fingerprint.pb)
+        * 📄 [saved_model.pb](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/disaster_tweets_model/saved_model.pb)
+        * 📂  [variables](https://github.com/aletbm/NLP_with_Disaster_Tweets/tree/main/scripts/disaster_tweets_model/variables)
+            * 📄 [variables.data-00000-of-00001](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/disaster_tweets_model/variables/variables.data-00000-of-00001)
+            * 📄 [variables.index](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/disaster_tweets_model/variables/variables.index)
+* 📂  [streamlit_app](https://github.com/aletbm/NLP_with_Disaster_Tweets/tree/main/streamlit_app)
+    * 🐍 [my_app.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/streamlit_app/my_app.py)
+    * 📄 [requirements.txt](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/streamlit_app/requirements.txt)
+    * 🗄️ [train_clean.csv](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/streamlit_app/train_clean.csv)
 
 ---
 # Downloading the dataset
@@ -143,22 +142,22 @@ False Negative [FN] = your prediction is 0, and the ground truth is 1 - you pred
 
 ## Dataset analysis and Training models
 
-The dataset analysis and the models training were conducted in Jupyter Notebook. You can find in the file named [nlp-with-disaster-tweets.ipynb](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/analysis/nlp-with-disaster-tweets.ipynb).
+The dataset analysis and the models training were conducted in Jupyter Notebook. You can find in the file named [nlp-with-disaster-tweets.ipynb](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/analysis/nlp-with-disaster-tweets.ipynb).
 
-The training script is available in the [train.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/train.py) script.
+The training script is available in the [train.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/train.py) script.
 
-To deployment I used a model trained for classification named [model_base.h5](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/models/model_base.h5).
+To deployment I used a model trained for classification named [model_base.h5](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/models/model_base.h5).
 
 ---
 # Running the project locally
 
 ## Using Flask
 
-The script to deploy the model using Flask is [model_serving.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/model_serving.py)
+The script to deploy the model using Flask is [model_serving.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/model_serving.py)
 
-[Pipfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/Pipfile) and [Pipfile.lock](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/Pipfile.lock) set up the Pipenv environment.
+[Pipfile](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/Pipfile) and [Pipfile.lock](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/Pipfile.lock) set up the Pipenv environment.
 
-First, you need to install from [Pipfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/Pipfile):
+First, you need to install from [Pipfile](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/Pipfile):
 ```
 pipenv install
 ```
@@ -178,11 +177,11 @@ Then, you will be ready to test the model by running the following command:
 ```
 python ./scripts/test.py
 ```
-Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/test.py) file to:
+Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/test.py) file to:
 ```
 url = "http://localhost:9696/predict"
 ```
-Also, you must update the host in the [model_serving.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/model_serving.py) file to:
+Also, you must update the host in the [model_serving.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/model_serving.py) file to:
 ```
 host = os.getenv('TF_SERVING_HOST', 'localhost:8500')
 ```
@@ -200,11 +199,11 @@ And then, you can test the model by running the following command:
 ```
 python ./scripts/test.py
 ```
-Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/test.py) file to:
+Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/test.py) file to:
 ```
 url = "http://localhost:9696/predict"
 ```
-Also, you must update the host in the [model_serving.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/model_serving.py) file to:
+Also, you must update the host in the [model_serving.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/model_serving.py) file to:
 ```
 host = os.getenv('TF_SERVING_HOST', 'localhost:8500')
 ```
@@ -217,8 +216,8 @@ First, you need to build:
 + The Gateway image.
 
 To achieve this, I created two separate Dockerfiles:
-+ [serving.dockerfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/serving.dockerfile) -- Contains the instruction to serve the TensorFlow model in `saved_model` format ([disaster_tweets_model](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/disaster_tweets_model)).
-+ [gateway.dockerfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/gateway.dockerfile) -- Contains the instruction to deploy the [model_serving.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/model_serving.py) algorithm and install its dependencies.
++ [serving.dockerfile](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/serving.dockerfile) -- Contains the instruction to serve the TensorFlow model in `saved_model` format ([disaster_tweets_model](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/disaster_tweets_model)).
++ [gateway.dockerfile](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/gateway.dockerfile) -- Contains the instruction to deploy the [model_serving.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/model_serving.py) algorithm and install its dependencies.
 
 To build them, you can use the following commands:
 
@@ -255,13 +254,13 @@ Then, you will be ready to test the model by running the following command:
 ```
 python ./scripts/test.py
 ```
-Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/test.py) file to:
+Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/test.py) file to:
 ```
 url = "http://localhost:9696/predict"
 ```
 To deploy locally using Kubernetes and Docker, you must replace my Docker username with your Docker username in:
 
-+ The [model-deployment.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/model-deployment.yaml) file configuration.
++ The [model-deployment.yaml](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/model-deployment.yaml) file configuration.
     ```
         spec:
         containers:
@@ -270,7 +269,7 @@ To deploy locally using Kubernetes and Docker, you must replace my Docker userna
             ports:
             - containerPort: 8500
     ```
-+ The [gateway-deployment.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/gateway-deployment.yaml) file configuration.
++ The [gateway-deployment.yaml](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/gateway-deployment.yaml) file configuration.
     ```
     spec:
       containers:
@@ -285,7 +284,7 @@ Up to this point, you have built and pushed all the necessary images, and all co
 
 Now, you need to create a Kubernetes cluster with Kind and apply all configuration files. To do this, you have two options:
 + Do it manually by executing each command individually.
-+ Do it automatically by executing the [deploy.sh](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/etc/deploy.sh) script.
++ Do it automatically by executing the [deploy.sh](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/etc/deploy.sh) script.
 
 Manually, you must to execute the following commands:
 ```
@@ -316,7 +315,7 @@ Once all pods are running, you can test the deployment by running the following 
 ```
 python ./scripts/test.py
 ```
-Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/NLP_with_Disaster_Tweets_Capstone_2/scripts/test.py) file to:
+Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/NLP_with_Disaster_Tweets/blob/main/scripts/test.py) file to:
 ```
 url = "http://localhost:80/predict"
 ```
